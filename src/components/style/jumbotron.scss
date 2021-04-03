@@ -1,0 +1,57 @@
+$base-color: #eebece;
+$font-color: #fff;
+$priamry-color: #333;
+$box-padding: 3%;
+
+$heading-large: 62px;
+$heading-medium: 32px;
+$subtitle-large: 21px;
+$subtitle-small: 16px;
+
+.jumbotron {
+  width: 100%;
+  height: auto;
+  min-height: 140vh;
+  background-image: url(../../graphics/bg-1.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 5%;
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-text {
+    color: $font-color;
+
+    h1 {
+      font-family: "Work Sans", sans-serif;
+      font-size: $heading-large;
+      font-weight: 900;
+    }
+    p {
+      font-family: "Work Sans", sans-serif;
+      font-size: $subtitle-large;
+    }
+  }
+  &-image {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-button {
+    background-color: #fff;
+    border-radius: 30px;
+    position: absolute;
+    border: none;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+  }
+}

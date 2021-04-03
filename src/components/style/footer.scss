@@ -1,0 +1,21 @@
+.footer {
+  background-color: #0b24fb;
+  padding: 1% 1% 1% 1%;
+  height: auto;
+
+  &-box {
+    margin-left: 18%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+  }
+  .version {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 10px;
+  }
+}

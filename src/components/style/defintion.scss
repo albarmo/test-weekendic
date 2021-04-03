@@ -1,0 +1,38 @@
+$base-color: #eebece;
+$priamry-color: #333;
+$box-padding: 3%;
+
+$heading-large: 62px;
+$heading-medium: 32px;
+$subtitle-large: 21px;
+$subtitle-small: 16px;
+
+.defintion {
+  // background-color: darkblue;
+  margin-top: 5%;
+  height: 600px;
+  width: 100%;
+  background-image: url(../../graphics/group-4.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-text {
+    width: 45%;
+    font-size: $subtitle-large;
+    color: black;
+    text-align: right;
+
+    span {
+      color: #0b24fb;
+      font-weight: bolder;
+    }
+  }
+  &-company {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+  }
+}
