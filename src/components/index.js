@@ -4,3 +4,4 @@ export { default as Defintion } from "./defintion";
 export { default as Testimonials } from "./Testimonials";
 export { default as Text } from "./text";
 export { default as Footer } from "./footer";
+export { default as HelpsAndTips } from "./HelpsAndTips";

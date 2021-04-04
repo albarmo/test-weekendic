@@ -7,7 +7,7 @@ import navImage from "../graphics/bitmap.png";
 const Navbar = () => {
   return (
     <>
-      <Container fluid className="navbar">
+      <div fluid className="navbar">
         <section className="navbar-box">
           <Image src={navImage} size="smaller" />
           <section className="navbar-text">
@@ -15,7 +15,7 @@ const Navbar = () => {
             <p>Fellas</p>
           </section>
         </section>
-      </Container>
+      </div>
     </>
   );
 };

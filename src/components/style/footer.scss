@@ -1,7 +1,7 @@
 .footer {
   background-color: #0b24fb;
   padding: 1% 1% 1% 1%;
-  height: auto;
+  height: 67px;
 
   &-box {
     margin-left: 18%;
@@ -17,5 +17,12 @@
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    background-color: #0b24fb;
+    padding: 3% 0% 2% 0%;
   }
 }

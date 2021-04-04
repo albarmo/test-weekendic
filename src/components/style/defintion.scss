@@ -36,3 +36,19 @@ $subtitle-small: 16px;
     font-weight: bold;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .defintion {
+    // background-color: darkblue;
+    margin-top: 5%;
+    padding-top: 60%;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20%;
+
+    &-text {
+      width: 80%;
+      font-size: $subtitle-small;
+    }
+  }
+}

@@ -1,34 +1,87 @@
-.text-heading {
-  color: white;
+.slider-container {
+  h .text-heading {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: relative;
+  }
+  .testimonial {
+    position: relative;
+    margin-top: -150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    .slider {
+      width: 55%;
+      margin-top: 30px;
+      overflow: hidden;
+
+      &-box {
+        width: 50px;
+        margin-bottom: 50px;
+        padding: 5%;
+        text-align: left;
+
+        .container {
+          min-width: 200px !important;
+          height: 170px !important;
+          background-color: white;
+          padding: 4%;
+        }
+
+        h1 {
+          font-size: 32px;
+          font-weight: bolder;
+        }
+      }
+    }
+  }
 }
 
-.testimonial {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
+@media only screen and (max-width: 768px) {
+  .slider-container {
+    .text-heading {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      display: relative;
+    }
+    .testimonial {
+      position: relative;
+      margin-top: -150px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      overflow: hidden;
+      margin-left: 50px;
 
-  .slider {
-    width: 55%;
-    margin-top: 30px;
-    overflow: hidden;
+      .slider {
+        width: 180%;
+        margin-top: 30px;
+        overflow: visible;
 
-    &-box {
-      width: 50px;
-      height: 140px;
-      margin-bottom: 50px;
-      padding: 5%;
-      text-align: left;
+        &-box {
+          width: 100px !important;
+          margin-bottom: 50px;
+          width: 200px !important;
+          padding: 5%;
+          text-align: left;
 
-      .container {
-        background-color: white;
-        padding: 4%;
-      }
-
-      h1 {
-        font-size: 32px;
-        font-weight: bolder;
+          .container {
+            margin-left: -80px;
+            padding: 15%;
+            width: 200px;
+            height: 200px !important;
+            background-color: white;
+            padding: 4%;
+          }
+        }
       }
     }
   }

@@ -1,4 +1,16 @@
 .text {
   color: white;
   width: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .text {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 5%;
+  }
 }
